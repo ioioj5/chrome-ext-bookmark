@@ -1,0 +1,14 @@
+{
+	"name": "chrome-ext-bookmark",
+	"version":"0.1",
+	"manifest_version": 2,
+	"description": "a bookmark ext for chrome",
+	"browser_action": {
+		"default_title": "",
+		"default_icon": "./static/image/icon_128.png",
+		"default_popup": "popup.html"
+	},
+	"background": {
+        "scripts": ["./static/js/background.js"]
+    }
+}
